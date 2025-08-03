@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('./fonts/Vazir.ttf') format('ttf'),
+    url('./fonts/Vazir.woff') format('woff'),
+    url('./fonts/Vazir.woff2') format('woff2'),
+    url('./fonts/Vazir.eot') format('eot'),;
+}
+
+body{
+    font-family: 'vazir',sans-serif;
+    background: url('./images/bg.jpg') center center/cover fixed no-repeat ;
+    color: rgb(54, 53, 53);
+    /* color: black; */
+}
+
+.dark body{
+    background: url('./images/bg-dark.jpg') center center/cover fixed no-repeat ;
+    color: #fff !important;
+}
+.dark *{
+    color: #fff !important;
+}
+.navbar{
+    background-color: transparent;
+}
+.SwitchCheck{
+    width: 2.5rem !important;
+     height: 1.4rem;
+}
+.lh-0{
+    line-height: 0;
+}
+.text-gray{
+    color: rgb(68, 67, 67);
+}
+/* ityped */
+.ityped-cursor {
+    font-size: 2.2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+
+.counter{
+    margin-top: 3rem;
+}
+.box{
+    border: 2px solid #dfd8d8;
+    border-radius: 8px;
+    width:3.5rem;
+    height: 5rem;
+    margin-left: 1rem;
+    padding: 10px 0;
+}
+@media screen and (min-width:576px) {
+    .box{
+        width:5rem;
+        height: 6rem;
+        margin-left: 1rem;
+        padding: 15px 0;
+    }
+}
+.icon{
+    color: #f1f1f1;
+    margin-left: 0.5rem;
+    padding: 0.7rem 0.85rem 0.4rem 0.85rem;
+    border: 1px solid rgba(196, 195, 195, 0.968);
+    transition: all 0.5s;
+}
+.icon:hover{
+    border-color:#0d6efd;
+    background-color: #0d6efd;
+}
+
+.text-contact{
+    color:rgb(39, 37, 37);
+}
+.text-contact::after{
+    content: "";
+    width: 80px;
+    height: 5px;
+    background-color: gray;
+    display: block;
+    margin: 0.7rem auto;
+}
+.card{
+    border-top: 4px solid #0d6efd;
+    border-bottom: 4px solid #0d6efd;
+    background-color: transparent;
+    height: 650px;
+}
+.icon-i{
+    padding: 0.45rem 0.5rem 0.1rem 0.5rem;
+    margin-left: 1rem;
+}
